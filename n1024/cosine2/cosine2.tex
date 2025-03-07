@@ -1,0 +1,112 @@
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Fri Feb 21 06:36:11 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccc|c}
+  \hline
+method & mean & min & 25\% & 50\% & 75\% & max & \#Inf \\ 
+  \hline
+method & 0.1006 & 0.01605 & 0.06114 & 0.07401 & 0.1084 &   0.5 & 0.002 \\ 
+  JIC & 0.075 & 0.075 & 0.075 & 0.075 & 0.075 & 0.075 &   0 \\ 
+  PELT &  &  &  &  &  &  &   1 \\ 
+  FusedLasso &  &  &  &  &  &  &   1 \\ 
+  kernelSmoothingVfold & 0.02089 & 0.007476 & 0.01605 & 0.01943 & 0.02352 & 0.04172 &   0 \\ 
+  kernelSmoothingLOOCV & 0.01856 & 0.006815 & 0.01609 & 0.01995 & 0.01995 & 0.03065 &   0 \\ 
+   \hline
+\end{tabular}
+\caption{cosine2: bandwidths} 
+\label{tab:cosine2Bandwidths}
+\end{table}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Fri Feb 21 06:36:11 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccc}
+  \hline
+method & mean & min & 25\% & 50\% & 75\% & max \\ 
+  \hline
+method & 0.03706 & 3.164e-05 & 0.004831 & 0.01593 & 0.02345 & 0.8545 \\ 
+  JIC &  &  &  &  &  &  \\ 
+  PELT &  &  &  &  &  &  \\ 
+  FusedLasso & 0.02045 &  &  &  &  &  \\ 
+  kernelSmoothingVfold &  &  &  &  &  &  \\ 
+  kernelSmoothingLOOCV &  &  &  &  &  &  \\ 
+   \hline
+\end{tabular}
+\caption{cosine2: fused Lasso penalty $\lambda$} 
+\label{tab:cosine2Lambdas}
+\end{table}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Fri Feb 21 06:36:11 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccccc|c}
+  \hline
+method & bias & $<$ -2 & -2 & -1 & 0 & 1 & 2 & $>$ 2 & aMSE \\ 
+  \hline
+method & 1.148 & 0.017 & 0.072 & 0.107 & 0.166 & 0.188 & 0.236 & 0.214 & 0.3064 \\ 
+  JIC & -0.311 &  0.01 &  0.14 & 0.318 & 0.329 & 0.127 & 0.047 & 0.029 & 0.6232 \\ 
+  PELT & 2.403 &     0 &     0 &     0 & 0.023 & 0.162 & 0.345 &  0.47 & 0.5115 \\ 
+  FusedLasso & 56.52 &     0 &     0 &     0 &     0 &     0 &     0 &     1 & 0.2998 \\ 
+  kernelSmoothingVfold &    -4 &     1 &     0 &     0 &     0 &     0 &     0 &     0 & 0.5628 \\ 
+  kernelSmoothingLOOCV &    -4 &     1 &     0 &     0 &     0 &     0 &     0 &     0 & 0.5556 \\ 
+   \hline
+\end{tabular}
+\caption{cosine2: number of detected change-points and averaged MSE} 
+\label{tab:cosine2Njumps}
+\end{table}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Fri Feb 21 06:36:11 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|cccc}
+  \hline
+method & 1 & 2 & 3 & 4 \\ 
+  \hline
+method &   99.1 &   70.8 &   64.2 &   94.6 \\ 
+  JIC &   99.7 &   63.8 &   47.4 &   93.2 \\ 
+  PELT &   99.7 &   86.8 &     73 &     97 \\ 
+  FusedLasso &    100 &   98.6 &   97.2 &   99.9 \\ 
+  kernelSmoothingVfold &      0 &      0 &      0 &      0 \\ 
+  kernelSmoothingLOOCV &      0 &      0 &      0 &      0 \\ 
+   \hline
+\end{tabular}
+\caption{cosine2: percentage how often each change-point was detected} 
+\label{tab:cosine2Detections}
+\end{table}
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Sat Mar  2 18:52:41 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccccc|c}
+  \hline
+method & bias & $<$ -2 & -2 & -1 & 0 & 1 & 2 & $>$ 2 & aMSE \\ 
+  \hline
+method & 1.072 & 0.0247 & 0.0824 & 0.1187 & 0.1316 & 0.1772 & 0.2511 & 0.2143 & 0.3239 \\ 
+  JIC & -0.2606 & 0.0105 & 0.1392 & 0.3022 & 0.3233 & 0.1407 & 0.0553 & 0.0288 & 0.6343 \\ 
+  PELT & 2.439 &     0 &     0 &     0 & 0.0244 & 0.1512 & 0.3321 & 0.4923 & 0.5094 \\ 
+  COPS & -1.045 & 0.0032 &  0.23 & 0.5864 & 0.1736 & 0.0036 & 0.0019 & 0.0013 & 2.294 \\ 
+  SOPS & -3.744 & 0.9555 &     0 &     0 &     0 & 0.0225 & 0.0114 & 0.0106 & 2.629 \\ 
+   \hline
+\end{tabular}
+\caption{cosine2: number of detected change-points and averaged MSE} 
+\label{tab:cosine2Njumps}
+\end{table}
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Sat Mar  2 18:52:41 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|cccc}
+  \hline
+method & 1 & 2 & 3 & 4 \\ 
+  \hline
+method &  98.58 &  65.11 &  58.21 &  92.51 \\ 
+  JIC &  99.38 &  64.26 &  47.54 &  94.18 \\ 
+  PELT &  99.79 &   87.6 &  73.18 &  96.67 \\ 
+  COPS &  99.51 &   0.11 &  58.28 &  97.31 \\ 
+  SOPS &   4.25 &    0.1 &   2.39 &   3.89 \\ 
+   \hline
+\end{tabular}
+\caption{cosine2: percentage how often each change-point was detected} 
+\label{tab:cosine2Detections}
+\end{table}

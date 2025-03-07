@@ -1,0 +1,112 @@
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Sat Feb 15 23:28:56 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccc|c}
+  \hline
+method & mean & min & 25\% & 50\% & 75\% & max & \#Inf \\ 
+  \hline
+method & 0.02929 & 0.01095 & 0.02847 & 0.02847 & 0.03447 & 0.04172 &   0 \\ 
+  JIC & 0.075 & 0.075 & 0.075 & 0.075 & 0.075 & 0.075 &   0 \\ 
+  PELT &  &  &  &  &  &  &   1 \\ 
+  FusedLasso &  &  &  &  &  &  &   1 \\ 
+  kernelSmoothingVfold & 0.01431 & 0.005102 & 0.01095 & 0.01326 & 0.01605 & 0.02847 &   0 \\ 
+  kernelSmoothingLOOCV & 0.01138 & 0.005498 & 0.01047 & 0.01047 & 0.01298 & 0.01995 &   0 \\ 
+   \hline
+\end{tabular}
+\caption{burt4: bandwidths} 
+\label{tab:burt4Bandwidths}
+\end{table}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Sat Feb 15 23:28:56 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccc}
+  \hline
+method & mean & min & 25\% & 50\% & 75\% & max \\ 
+  \hline
+method & 0.02839 & 0.005269 & 0.01932 & 0.02312 & 0.02952 & 0.1012 \\ 
+  JIC &  &  &  &  &  &  \\ 
+  PELT &  &  &  &  &  &  \\ 
+  FusedLasso & 0.01418 &  &  &  &  &  \\ 
+  kernelSmoothingVfold &  &  &  &  &  &  \\ 
+  kernelSmoothingLOOCV &  &  &  &  &  &  \\ 
+   \hline
+\end{tabular}
+\caption{burt4: fused Lasso penalty $\lambda$} 
+\label{tab:burt4Lambdas}
+\end{table}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Sat Feb 15 23:28:56 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccccc|c}
+  \hline
+method & bias & $<$ -2 & -2 & -1 & 0 & 1 & 2 & $>$ 2 & aMSE \\ 
+  \hline
+method & 0.765 &     0 &     0 &     0 & 0.525 & 0.232 & 0.216 & 0.027 & 0.3023 \\ 
+  JIC &   6.6 &     0 &     0 &     0 & 0.141 & 0.074 & 0.073 & 0.712 & 14.89 \\ 
+  PELT & 19.07 &     0 &     0 &     0 &     0 &     0 &     0 &     1 & 2.341 \\ 
+  FusedLasso & 118.6 &     0 &     0 &     0 &     0 &     0 &     0 &     1 & 0.6714 \\ 
+  kernelSmoothingVfold &    -1 &     0 &     0 &     1 &     0 &     0 &     0 &     0 & 1.086 \\ 
+  kernelSmoothingLOOCV &    -1 &     0 &     0 &     1 &     0 &     0 &     0 &     0 & 1.038 \\ 
+   \hline
+\end{tabular}
+\caption{burt4: number of detected change-points and averaged MSE} 
+\label{tab:burt4Njumps}
+\end{table}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Sat Feb 15 23:28:56 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c}
+  \hline
+method & 1 \\ 
+  \hline
+method &    100 \\ 
+  JIC &    100 \\ 
+  PELT &    100 \\ 
+  FusedLasso &    100 \\ 
+  kernelSmoothingVfold &      0 \\ 
+  kernelSmoothingLOOCV &      0 \\ 
+   \hline
+\end{tabular}
+\caption{burt4: percentage how often each change-point was detected} 
+\label{tab:burt4Detections}
+\end{table}
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Wed Feb 28 01:21:03 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccccc|c}
+  \hline
+method & bias & $<$ -2 & -2 & -1 & 0 & 1 & 2 & $>$ 2 & aMSE \\ 
+  \hline
+method & 1.464 &     0 &     0 &     0 & 0.104 & 0.3898 & 0.4723 & 0.0339 & 0.3213 \\ 
+  JIC & 6.558 &     0 &     0 &     0 & 0.1489 & 0.0792 & 0.0669 & 0.705 & 14.91 \\ 
+  PELT & 19.08 &     0 &     0 &     0 &     0 &     0 &     0 &     1 & 2.331 \\ 
+  COPS & 0.0761 &     0 &     0 &     0 & 0.9512 & 0.033 & 0.0097 & 0.0061 & 1.134 \\ 
+  SOPS & -0.2199 &     0 &     0 & 0.8777 &     0 &     0 &     0 & 0.1223 & 3.644 \\ 
+   \hline
+\end{tabular}
+\caption{burt4: number of detected change-points and averaged MSE} 
+\label{tab:burt4Njumps}
+\end{table}
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Wed Feb 28 01:21:03 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c}
+  \hline
+method & 1 \\ 
+  \hline
+method &    100 \\ 
+  JIC &    100 \\ 
+  PELT &    100 \\ 
+  COPS &    100 \\ 
+  SOPS &  12.23 \\ 
+   \hline
+\end{tabular}
+\caption{burt4: percentage how often each change-point was detected} 
+\label{tab:burt4Detections}
+\end{table}

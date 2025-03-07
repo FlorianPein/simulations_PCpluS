@@ -1,0 +1,112 @@
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Fri Feb 21 17:35:50 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccc|c}
+  \hline
+method & mean & min & 25\% & 50\% & 75\% & max & \#Inf \\ 
+  \hline
+method & 0.1972 & 0.00905 & 0.07401 & 0.1589 & 0.2819 &   0.5 & 0.09 \\ 
+  JIC & 0.075 & 0.075 & 0.075 & 0.075 & 0.075 & 0.075 &   0 \\ 
+  PELT &  &  &  &  &  &  &   1 \\ 
+  FusedLasso &  &  &  &  &  &  &   1 \\ 
+  kernelSmoothingVfold & 0.01221 & 0.004215 & 0.01095 & 0.01326 & 0.01326 & 0.01943 &   0 \\ 
+  kernelSmoothingLOOCV & 0.01127 & 0.005498 & 0.01047 & 0.01047 & 0.01298 & 0.01609 &   0 \\ 
+   \hline
+\end{tabular}
+\caption{blocks1: bandwidths} 
+\label{tab:blocks1Bandwidths}
+\end{table}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Fri Feb 21 17:35:50 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccc}
+  \hline
+method & mean & min & 25\% & 50\% & 75\% & max \\ 
+  \hline
+method & 0.06716 & 2.682e-05 & 0.005739 & 0.02546 & 0.09565 & 0.314 \\ 
+  JIC &  &  &  &  &  &  \\ 
+  PELT &  &  &  &  &  &  \\ 
+  FusedLasso & 0.008808 &  &  &  &  &  \\ 
+  kernelSmoothingVfold &  &  &  &  &  &  \\ 
+  kernelSmoothingLOOCV &  &  &  &  &  &  \\ 
+   \hline
+\end{tabular}
+\caption{blocks1: fused Lasso penalty $\lambda$} 
+\label{tab:blocks1Lambdas}
+\end{table}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Fri Feb 21 17:35:50 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccccc|c}
+  \hline
+method & bias & $<$ -2 & -2 & -1 & 0 & 1 & 2 & $>$ 2 & aMSE \\ 
+  \hline
+method & -0.259 & 0.028 & 0.044 & 0.301 & 0.453 & 0.103 & 0.055 & 0.016 & 0.1888 \\ 
+  JIC & -6.24 & 0.971 & 0.023 & 0.004 & 0.002 &     0 &     0 &     0 & 1.596 \\ 
+  PELT & -0.332 &     0 & 0.011 & 0.342 & 0.616 &  0.03 & 0.001 &     0 & 0.1699 \\ 
+  FusedLasso & 36.74 &     0 &     0 &     0 &     0 &     0 &     0 &     1 & 0.228 \\ 
+  kernelSmoothingVfold &   -11 &     1 &     0 &     0 &     0 &     0 &     0 &     0 & 0.4236 \\ 
+  kernelSmoothingLOOCV &   -11 &     1 &     0 &     0 &     0 &     0 &     0 &     0 & 0.4185 \\ 
+   \hline
+\end{tabular}
+\caption{blocks1: number of detected change-points and averaged MSE} 
+\label{tab:blocks1Njumps}
+\end{table}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Fri Feb 21 17:35:50 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|ccccccccccc}
+  \hline
+method & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 \\ 
+  \hline
+method &   96.4 &   98.8 &   87.2 &   94.7 &   98.5 &   96.5 &   66.9 &   96.7 &   80.7 &   47.6 &   96.7 \\ 
+  JIC &    7.9 &   72.1 &    3.1 &   24.1 &   59.6 &   71.1 &   15.5 &   76.8 &   42.8 &    2.6 &   70.1 \\ 
+  PELT &   97.6 &   99.3 &   89.7 &     96 &   99.7 &   97.3 &   72.8 &   98.2 &   86.3 &   47.6 &   97.1 \\ 
+  FusedLasso &    100 &    100 &   97.4 &   99.9 &    100 &   99.9 &   93.4 &    100 &   98.7 &   79.3 &    100 \\ 
+  kernelSmoothingVfold &      0 &      0 &      0 &      0 &      0 &      0 &      0 &      0 &      0 &      0 &      0 \\ 
+  kernelSmoothingLOOCV &      0 &      0 &      0 &      0 &      0 &      0 &      0 &      0 &      0 &      0 &      0 \\ 
+   \hline
+\end{tabular}
+\caption{blocks1: percentage how often each change-point was detected} 
+\label{tab:blocks1Detections}
+\end{table}
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Sun Mar  3 17:57:42 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccccc|c}
+  \hline
+method & bias & $<$ -2 & -2 & -1 & 0 & 1 & 2 & $>$ 2 & aMSE \\ 
+  \hline
+method & -0.3655 & 0.0503 & 0.0638 & 0.2467 & 0.4427 & 0.1148 & 0.0592 & 0.0225 & 0.1994 \\ 
+  JIC & -6.399 & 0.9791 & 0.0144 & 0.0041 & 0.0015 & 0.0003 & 0.0004 & 0.0002 & 1.622 \\ 
+  PELT & -0.329 &     0 & 0.0123 & 0.3405 & 0.6149 & 0.0287 & 0.0034 & 0.0002 & 0.1701 \\ 
+  COPS & -6.262 & 0.9965 & 0.0021 & 0.0006 & 0.0001 & 0.0006 & 0.0001 &     0 & 1.666 \\ 
+  SOPS & -6.966 & 0.9602 & 0.0119 & 0.0147 & 0.0056 & 0.0041 & 0.002 & 0.0015 & 1.779 \\ 
+   \hline
+\end{tabular}
+\caption{blocks1: number of detected change-points and averaged MSE} 
+\label{tab:blocks1Njumps}
+\end{table}
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Sun Mar  3 17:57:42 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|ccccccccccc}
+  \hline
+method & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 \\ 
+  \hline
+method &  94.51 &  97.46 &  84.71 &  94.78 &   97.7 &  95.06 &   64.6 &  95.65 &  76.36 &  48.08 &  94.76 \\ 
+  JIC &   6.41 &  72.09 &   3.05 &  21.88 &   60.3 &  69.12 &  15.22 &  74.83 &  40.89 &   2.55 &  67.42 \\ 
+  PELT &  97.52 &   99.3 &  89.22 &  97.12 &  99.53 &  97.78 &  75.35 &  98.46 &  86.19 &  48.33 &  97.51 \\ 
+  COPS &   1.02 &  63.39 &   0.25 &  10.52 &  79.17 &  93.17 &   1.85 &   95.5 &   3.24 &   4.58 &   81.9 \\ 
+  SOPS &   3.05 &  58.15 &   0.73 &   9.46 &  47.71 &  55.24 &   4.15 &  59.34 &   5.82 &   6.43 &   49.7 \\ 
+   \hline
+\end{tabular}
+\caption{blocks1: percentage how often each change-point was detected} 
+\label{tab:blocks1Detections}
+\end{table}

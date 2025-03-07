@@ -1,0 +1,112 @@
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Sat Feb 15 22:38:24 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccc|c}
+  \hline
+method & mean & min & 25\% & 50\% & 75\% & max & \#Inf \\ 
+  \hline
+method & 0.02845 & 0.00905 & 0.02352 & 0.02847 & 0.03447 & 0.05051 &   0 \\ 
+  JIC & 0.075 & 0.075 & 0.075 & 0.075 & 0.075 & 0.075 &   0 \\ 
+  PELT &  &  &  &  &  &  &   1 \\ 
+  FusedLasso &  &  &  &  &  &  &   1 \\ 
+  kernelSmoothingVfold & 0.01924 & 0.007476 & 0.01605 & 0.01943 & 0.02352 & 0.03447 &   0 \\ 
+  kernelSmoothingLOOCV & 0.01738 & 0.006815 & 0.01609 & 0.01609 & 0.01995 & 0.03065 &   0 \\ 
+   \hline
+\end{tabular}
+\caption{heavisine4: bandwidths} 
+\label{tab:heavisine4Bandwidths}
+\end{table}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Sat Feb 15 22:38:24 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccc}
+  \hline
+method & mean & min & 25\% & 50\% & 75\% & max \\ 
+  \hline
+method & 0.004231 & 0.0001084 & 0.003564 & 0.004187 & 0.004842 & 0.00831 \\ 
+  JIC &  &  &  &  &  &  \\ 
+  PELT &  &  &  &  &  &  \\ 
+  FusedLasso & 0.002737 &  &  &  &  &  \\ 
+  kernelSmoothingVfold &  &  &  &  &  &  \\ 
+  kernelSmoothingLOOCV &  &  &  &  &  &  \\ 
+   \hline
+\end{tabular}
+\caption{heavisine4: fused Lasso penalty $\lambda$} 
+\label{tab:heavisine4Lambdas}
+\end{table}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Sat Feb 15 22:38:24 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccccc|c}
+  \hline
+method & bias & $<$ -2 & -2 & -1 & 0 & 1 & 2 & $>$ 2 & aMSE \\ 
+  \hline
+method & 0.359 &     0 & 0.043 & 0.112 & 0.541 & 0.182 & 0.068 & 0.054 & 0.02558 \\ 
+  JIC & -0.123 &     0 &  0.01 & 0.513 &  0.28 & 0.091 & 0.054 & 0.052 & 0.8058 \\ 
+  PELT & 21.85 &     0 &     0 &     0 &     0 &     0 &     0 &     1 & 0.1581 \\ 
+  FusedLasso & 110.6 &     0 &     0 &     0 &     0 &     0 &     0 &     1 & 0.08054 \\ 
+  kernelSmoothingVfold &    -2 &     0 &     1 &     0 &     0 &     0 &     0 &     0 & 0.03801 \\ 
+  kernelSmoothingLOOCV &    -2 &     0 &     1 &     0 &     0 &     0 &     0 &     0 & 0.03768 \\ 
+   \hline
+\end{tabular}
+\caption{heavisine4: number of detected change-points and averaged MSE} 
+\label{tab:heavisine4Njumps}
+\end{table}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Sat Feb 15 22:38:24 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|cc}
+  \hline
+method & 1 & 2 \\ 
+  \hline
+method &   89.7 &   87.2 \\ 
+  JIC &   98.5 &   47.1 \\ 
+  PELT &   99.2 &     58 \\ 
+  FusedLasso &    100 &      0 \\ 
+  kernelSmoothingVfold &      0 &      0 \\ 
+  kernelSmoothingLOOCV &      0 &      0 \\ 
+   \hline
+\end{tabular}
+\caption{heavisine4: percentage how often each change-point was detected} 
+\label{tab:heavisine4Detections}
+\end{table}
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Wed Feb 28 12:35:11 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccccc|c}
+  \hline
+method & bias & $<$ -2 & -2 & -1 & 0 & 1 & 2 & $>$ 2 & aMSE \\ 
+  \hline
+method & 0.402 &     0 & 0.0797 & 0.0877 & 0.456 & 0.2259 & 0.0945 & 0.0562 & 0.02785 \\ 
+  JIC & -0.1472 &     0 & 0.0086 & 0.5195 & 0.2708 & 0.1048 & 0.0486 & 0.0477 & 0.8053 \\ 
+  PELT & 21.89 &     0 &     0 &     0 &     0 &     0 &     0 &     1 & 0.1573 \\ 
+  COPS & 0.0261 &     0 &     0 & 0.0496 & 0.8911 & 0.0484 & 0.0082 & 0.0027 & 0.1204 \\ 
+  SOPS & -1.086 &     0 & 0.8538 &     0 &     0 &     0 &     0 & 0.1462 & 0.144 \\ 
+   \hline
+\end{tabular}
+\caption{heavisine4: number of detected change-points and averaged MSE} 
+\label{tab:heavisine4Njumps}
+\end{table}
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Wed Feb 28 12:35:11 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|cc}
+  \hline
+method & 1 & 2 \\ 
+  \hline
+method &   84.7 &  80.92 \\ 
+  JIC &   98.5 &  46.67 \\ 
+  PELT &  98.66 &  58.87 \\ 
+  COPS &   98.1 &  95.93 \\ 
+  SOPS &  13.93 &  13.61 \\ 
+   \hline
+\end{tabular}
+\caption{heavisine4: percentage how often each change-point was detected} 
+\label{tab:heavisine4Detections}
+\end{table}
