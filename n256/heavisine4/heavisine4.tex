@@ -1,0 +1,150 @@
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Sat Feb 15 20:34:52 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccc|c}
+  \hline
+method & mean & min & 25\% & 50\% & 75\% & max & \#Inf \\ 
+  \hline
+method & 0.03552 & 0.007852 & 0.0285 & 0.03795 & 0.0438 & 0.07767 &   0 \\ 
+  JIC & 0.09896 & 0.09896 & 0.09896 & 0.09896 & 0.09896 & 0.09896 &   0 \\ 
+  PELT &  &  &  &  &  &  &   1 \\ 
+  FusedLasso &  &  &  &  &  &  &   1 \\ 
+  kernelSmoothingVfold & 0.03154 & 0.007852 & 0.0285 & 0.03289 & 0.03795 & 0.05833 &   0 \\ 
+  kernelSmoothingLOOCV & 0.02946 & 0.003945 & 0.02476 & 0.02926 & 0.03457 & 0.04828 &   0 \\ 
+   \hline
+\end{tabular}
+\caption{heavisine4: bandwidths} 
+\label{tab:heavisine4Bandwidths}
+\end{table}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Sat Feb 15 20:34:52 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccc}
+  \hline
+method & mean & min & 25\% & 50\% & 75\% & max \\ 
+  \hline
+method & 0.007547 & 3.84e-05 & 0.006092 & 0.007662 & 0.009251 & 0.02339 \\ 
+  JIC &  &  &  &  &  &  \\ 
+  PELT &  &  &  &  &  &  \\ 
+  FusedLasso & 0.006616 &  &  &  &  &  \\ 
+  kernelSmoothingVfold &  &  &  &  &  &  \\ 
+  kernelSmoothingLOOCV &  &  &  &  &  &  \\ 
+   \hline
+\end{tabular}
+\caption{heavisine4: fused Lasso penalty $\lambda$} 
+\label{tab:heavisine4Lambdas}
+\end{table}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Sat Feb 15 20:34:52 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccccc|c}
+  \hline
+method & bias & $<$ -2 & -2 & -1 & 0 & 1 & 2 & $>$ 2 & aMSE \\ 
+  \hline
+method & -0.4309 &     0 & 0.3945 & 0.238 & 0.1848 & 0.0733 & 0.0329 & 0.0765 & 0.08788 \\ 
+  JIC & -0.0233 &     0 & 0.2288 & 0.3574 & 0.1273 & 0.0894 & 0.0657 & 0.1314 & 1.588 \\ 
+  PELT & 13.02 &     0 &     0 &     0 &     0 &     0 &     0 &     1 & 0.3701 \\ 
+  FusedLasso & 62.82 &     0 &     0 &     0 &     0 &     0 &     0 &     1 & 0.1319 \\ 
+  kernelSmoothingVfold &    -2 &     0 &     1 &     0 &     0 &     0 &     0 &     0 & 0.08472 \\ 
+  kernelSmoothingLOOCV &    -2 &     0 &     1 &     0 &     0 &     0 &     0 &     0 & 0.08241 \\ 
+   \hline
+\end{tabular}
+\caption{heavisine4: number of detected change-points and averaged MSE} 
+\label{tab:heavisine4Njumps}
+\end{table}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Sat Feb 15 20:34:52 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|cc}
+  \hline
+method & 1 & 2 \\ 
+  \hline
+method &  44.63 &  33.39 \\ 
+  JIC &  74.62 &  23.29 \\ 
+  PELT &  99.45 &   7.25 \\ 
+  FusedLasso &    100 &  29.56 \\ 
+  kernelSmoothingVfold &      0 &      0 \\ 
+  kernelSmoothingLOOCV &      0 &      0 \\ 
+   \hline
+\end{tabular}
+\caption{heavisine4: percentage how often each change-point was detected} 
+\label{tab:heavisine4Detections}
+\end{table}
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Wed Feb 21 13:51:58 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccccc|c}
+  \hline
+method & bias & $<$ -2 & -2 & -1 & 0 & 1 & 2 & $>$ 2 & aMSE \\ 
+  \hline
+method &  -0.4 &     0 &  0.45 &  0.23 &  0.14 &  0.06 &  0.02 &   0.1 & 0.09192 \\ 
+  JIC &   0.4 &     0 &  0.25 &  0.21 &  0.18 &   0.1 &  0.06 &   0.2 & 1.586 \\ 
+  PELT & 12.91 &     0 &     0 &     0 &     0 &     0 &     0 &     1 & 0.3708 \\ 
+  COPS & -0.36 &     0 &     0 &  0.53 &  0.36 &  0.07 &  0.02 &  0.02 & 0.3077 \\ 
+  SOPS & -1.32 &     0 &  0.88 &     0 &     0 &     0 &     0 &  0.12 & 0.3324 \\ 
+  SCHACEcv &  2.39 &     0 &  0.01 &  0.11 &  0.16 &  0.27 &  0.12 &  0.33 & 0.07003 \\ 
+   \hline
+\end{tabular}
+\caption{heavisine4: number of detected change-points and averaged MSE} 
+\label{tab:heavisine4Njumps}
+\end{table}
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Wed Feb 21 13:51:58 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|cc}
+  \hline
+method & 1 & 2 \\ 
+  \hline
+method &     43 &     26 \\ 
+  JIC &     74 &     27 \\ 
+  PELT &     98 &      6 \\ 
+  COPS &     82 &     51 \\ 
+  SOPS &      8 &      8 \\ 
+  SCHACEcv &     82 &     76 \\ 
+   \hline
+\end{tabular}
+\caption{heavisine4: percentage how often each change-point was detected} 
+\label{tab:heavisine4Detections}
+\end{table}
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Thu Feb 22 15:25:17 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccccc|c}
+  \hline
+method & bias & $<$ -2 & -2 & -1 & 0 & 1 & 2 & $>$ 2 & aMSE \\ 
+  \hline
+method & -0.4368 &     0 & 0.4905 & 0.1769 & 0.1486 & 0.0594 & 0.0262 & 0.0984 & 0.09191 \\ 
+  JIC & -0.0233 &     0 & 0.2288 & 0.3574 & 0.1273 & 0.0894 & 0.0657 & 0.1314 & 1.588 \\ 
+  PELT & 13.02 &     0 &     0 &     0 &     0 &     0 &     0 &     1 & 0.3701 \\ 
+  COPS & -0.359 &     0 &     0 & 0.5602 & 0.3095 & 0.0842 & 0.0283 & 0.0178 & 0.3182 \\ 
+  SOPS & -1.197 &     0 & 0.8569 &     0 &     0 &     0 &     0 & 0.1431 & 0.3507 \\ 
+   \hline
+\end{tabular}
+\caption{heavisine4: number of detected change-points and averaged MSE} 
+\label{tab:heavisine4Njumps}
+\end{table}
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Thu Feb 22 15:25:17 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|cc}
+  \hline
+method & 1 & 2 \\ 
+  \hline
+method &  40.31 &  25.35 \\ 
+  JIC &  74.62 &  23.29 \\ 
+  PELT &  99.45 &   7.25 \\ 
+  COPS &  83.92 &   46.5 \\ 
+  SOPS &  13.12 &   7.31 \\ 
+   \hline
+\end{tabular}
+\caption{heavisine4: percentage how often each change-point was detected} 
+\label{tab:heavisine4Detections}
+\end{table}

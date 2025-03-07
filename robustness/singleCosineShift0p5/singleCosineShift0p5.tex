@@ -1,0 +1,112 @@
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Thu Feb 20 01:19:28 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccc|c}
+  \hline
+method & mean & min & 25\% & 50\% & 75\% & max & \#Inf \\ 
+  \hline
+method & 0.08041 & 0.01005 & 0.06627 & 0.08676 & 0.09928 &   0.5 &   0 \\ 
+  JIC & 0.104 & 0.104 & 0.104 & 0.104 & 0.104 & 0.104 &   0 \\ 
+  PELT &  &  &  &  &  &  &   1 \\ 
+  FusedLasso &  &  &  &  &  &  &   1 \\ 
+  kernelSmoothingVfold & 0.05086 & 0.01005 & 0.03866 & 0.05062 & 0.06627 & 0.1136 &   0 \\ 
+  kernelSmoothingLOOCV & 0.04593 & 0.005917 & 0.03381 & 0.04642 & 0.05439 & 0.0875 &   0 \\ 
+   \hline
+\end{tabular}
+\caption{singleCosineShift0p5: bandwidths} 
+\label{tab:singleCosineShift0p5Bandwidths}
+\end{table}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Thu Feb 20 01:19:28 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccc}
+  \hline
+method & mean & min & 25\% & 50\% & 75\% & max \\ 
+  \hline
+method & 0.005463 & 1.54e-05 & 0.003245 & 0.005177 & 0.007022 & 0.08568 \\ 
+  JIC &  &  &  &  &  &  \\ 
+  PELT &  &  &  &  &  &  \\ 
+  FusedLasso & 0.004555 &  &  &  &  &  \\ 
+  kernelSmoothingVfold &  &  &  &  &  &  \\ 
+  kernelSmoothingLOOCV &  &  &  &  &  &  \\ 
+   \hline
+\end{tabular}
+\caption{singleCosineShift0p5: fused Lasso penalty $\lambda$} 
+\label{tab:singleCosineShift0p5Lambdas}
+\end{table}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Thu Feb 20 01:19:28 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccccc|c}
+  \hline
+method & bias & $<$ -2 & -2 & -1 & 0 & 1 & 2 & $>$ 2 & aMSE \\ 
+  \hline
+method & 0.9995 &     0 &     0 & 0.069 & 0.4291 & 0.2749 & 0.0963 & 0.1307 & 0.009883 \\ 
+  JIC & 0.0004 &     0 &     0 & 0.1129 & 0.7844 & 0.0927 & 0.0094 & 0.0006 & 0.02614 \\ 
+  PELT & 6.151 &     0 &     0 &     0 &     0 &     0 &     0 &     1 & 0.03244 \\ 
+  FusedLasso & 27.46 &     0 &     0 &     0 &     0 &     0 &     0 &     1 & 0.01581 \\ 
+  kernelSmoothingVfold &    -1 &     0 &     0 &     1 &     0 &     0 &     0 &     0 & 0.01325 \\ 
+  kernelSmoothingLOOCV &    -1 &     0 &     0 &     1 &     0 &     0 &     0 &     0 & 0.01286 \\ 
+   \hline
+\end{tabular}
+\caption{singleCosineShift0p5: number of detected change-points and averaged MSE} 
+\label{tab:singleCosineShift0p5Njumps}
+\end{table}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Thu Feb 20 01:19:28 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c}
+  \hline
+method & 1 \\ 
+  \hline
+method &  91.38 \\ 
+  JIC &  88.23 \\ 
+  PELT &  99.89 \\ 
+  FusedLasso &    100 \\ 
+  kernelSmoothingVfold &      0 \\ 
+  kernelSmoothingLOOCV &      0 \\ 
+   \hline
+\end{tabular}
+\caption{singleCosineShift0p5: percentage how often each change-point was detected} 
+\label{tab:singleCosineShift0p5Detections}
+\end{table}
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Thu Feb 29 19:53:02 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccccc|c}
+  \hline
+method & bias & $<$ -2 & -2 & -1 & 0 & 1 & 2 & $>$ 2 & aMSE \\ 
+  \hline
+method & 1.103 &     0 &     0 & 0.1017 & 0.2417 & 0.4156 & 0.1126 & 0.1284 & 0.01005 \\ 
+  JIC & 0.0004 &     0 &     0 & 0.1129 & 0.7844 & 0.0927 & 0.0094 & 0.0006 & 0.02614 \\ 
+  PELT & 6.151 &     0 &     0 &     0 &     0 &     0 &     0 &     1 & 0.03244 \\ 
+  COPS & 0.1158 &     0 &     0 &     0 & 0.9117 & 0.0614 & 0.0263 & 0.0006 & 0.03574 \\ 
+  SOPS & -0.997 &     0 &     0 & 0.9994 &     0 &     0 &     0 & 0.0006 & 0.0708 \\ 
+   \hline
+\end{tabular}
+\caption{singleCosineShift0p5: number of detected change-points and averaged MSE} 
+\label{tab:singleCosineShift0p5Njumps}
+\end{table}
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Thu Feb 29 19:53:02 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c}
+  \hline
+method & 1 \\ 
+  \hline
+method &  88.83 \\ 
+  JIC &  88.23 \\ 
+  PELT &  99.89 \\ 
+  COPS &  99.66 \\ 
+  SOPS &   0.05 \\ 
+   \hline
+\end{tabular}
+\caption{singleCosineShift0p5: percentage how often each change-point was detected} 
+\label{tab:singleCosineShift0p5Detections}
+\end{table}

@@ -1,0 +1,116 @@
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Sun Feb 16 05:56:02 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccc|c}
+  \hline
+method & mean & min & 25\% & 50\% & 75\% & max & \#Inf \\ 
+  \hline
+method & 0.05284 & 0.009061 & 0.0438 & 0.05054 & 0.05833 &   0.5 & 0.0001 \\ 
+  JIC & 0.09896 & 0.09896 & 0.09896 & 0.09896 & 0.09896 & 0.09896 &   0 \\ 
+  PELT &  &  &  &  &  &  &   1 \\ 
+  FusedLasso &  &  &  &  &  &  &   1 \\ 
+  kernelSmoothingVfold & 0.04143 & 0.007852 & 0.03289 & 0.0438 & 0.05054 & 0.07767 &   0 \\ 
+  kernelSmoothingLOOCV & 0.03827 & 0.005509 & 0.02926 & 0.04086 & 0.04828 & 0.06742 &   0 \\ 
+   \hline
+\end{tabular}
+\caption{burt2: bandwidths} 
+\label{tab:burt2Bandwidths}
+\end{table}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Sun Feb 16 05:56:02 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccc}
+  \hline
+method & mean & min & 25\% & 50\% & 75\% & max \\ 
+  \hline
+method & 0.07624 & 0.0003398 & 0.05704 & 0.07703 & 0.09596 & 1.109 \\ 
+  JIC &  &  &  &  &  &  \\ 
+  PELT &  &  &  &  &  &  \\ 
+  FusedLasso & 0.07025 &  &  &  &  &  \\ 
+  kernelSmoothingVfold &  &  &  &  &  &  \\ 
+  kernelSmoothingLOOCV &  &  &  &  &  &  \\ 
+   \hline
+\end{tabular}
+\caption{burt2: fused Lasso penalty $\lambda$} 
+\label{tab:burt2Lambdas}
+\end{table}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Sun Feb 16 05:56:02 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccccc|c}
+  \hline
+method & bias & $<$ -2 & -2 & -1 & 0 & 1 & 2 & $>$ 2 & aMSE \\ 
+  \hline
+method & 0.943 &     0 &     0 & 0.1793 & 0.4345 & 0.1744 & 0.0595 & 0.1523 &  4.14 \\ 
+  JIC & 4.762 &     0 &     0 & 0.1039 & 0.1307 & 0.0933 & 0.0734 & 0.5987 & 28.93 \\ 
+  PELT & 7.344 &     0 &     0 &     0 &     0 &     0 &     0 &     1 &  12.5 \\ 
+  FusedLasso & 147.5 &     0 &     0 &     0 &     0 &     0 &     0 &     1 & 15.57 \\ 
+  kernelSmoothingVfold &    -1 &     0 &     0 &     1 &     0 &     0 &     0 &     0 & 4.656 \\ 
+  kernelSmoothingLOOCV &    -1 &     0 &     0 &     1 &     0 &     0 &     0 &     0 & 4.555 \\ 
+   \hline
+\end{tabular}
+\caption{burt2: number of detected change-points and averaged MSE} 
+\label{tab:burt2Njumps}
+\end{table}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Sun Feb 16 05:56:02 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c}
+  \hline
+method & 1 \\ 
+  \hline
+method &  78.89 \\ 
+  JIC &  86.77 \\ 
+  PELT &  98.79 \\ 
+  FusedLasso &    100 \\ 
+  kernelSmoothingVfold &      0 \\ 
+  kernelSmoothingLOOCV &      0 \\ 
+   \hline
+\end{tabular}
+\caption{burt2: percentage how often each change-point was detected} 
+\label{tab:burt2Detections}
+\end{table}
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Thu Feb 22 10:11:36 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccccc|c}
+  \hline
+method & bias & $<$ -2 & -2 & -1 & 0 & 1 & 2 & $>$ 2 & aMSE \\ 
+  \hline
+method &  0.82 &     0 &     0 &  0.27 &   0.3 &   0.2 &  0.08 &  0.15 & 4.519 \\ 
+  JIC &  5.29 &     0 &     0 &  0.08 &  0.09 &   0.1 &  0.02 &  0.71 & 29.31 \\ 
+  PELT &  7.39 &     0 &     0 &     0 &     0 &     0 &     0 &     1 & 12.37 \\ 
+  COPS &  0.49 &     0 &     0 &     0 &  0.62 &   0.3 &  0.06 &  0.02 & 19.09 \\ 
+  SOPS & -0.57 &     0 &     0 &  0.92 &     0 &     0 &     0 &  0.08 &    22 \\ 
+  SCHACEcv &  1.93 &     0 &     0 &  0.03 &  0.49 &  0.25 &  0.08 &  0.15 & 3.161 \\ 
+  SCHACEbic &  0.11 &     0 &     0 &  0.05 &   0.8 &  0.14 &  0.01 &     0 & 2.497 \\ 
+   \hline
+\end{tabular}
+\caption{burt2: number of detected change-points and averaged MSE} 
+\label{tab:burt2Njumps}
+\end{table}
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Thu Feb 22 10:11:36 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c}
+  \hline
+method & 1 \\ 
+  \hline
+method &     70 \\ 
+  JIC &     89 \\ 
+  PELT &     99 \\ 
+  COPS &     87 \\ 
+  SOPS &      7 \\ 
+  SCHACEcv &     91 \\ 
+  SCHACEbic &     93 \\ 
+   \hline
+\end{tabular}
+\caption{burt2: percentage how often each change-point was detected} 
+\label{tab:burt2Detections}
+\end{table}

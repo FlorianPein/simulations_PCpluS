@@ -1,0 +1,112 @@
+% latex table generated in R 3.6.3 by xtable 1.8-4 package
+% Mon Mar 23 07:51:38 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccc|c}
+  \hline
+method & mean & min & 25\% & 50\% & 75\% & max & \#Inf \\ 
+  \hline
+method & 0.2559 & 0.006657 & 0.09496 & 0.2573 & 0.4235 &   0.5 & 0.21 \\ 
+  JIC & 0.08667 & 0.08667 & 0.08667 & 0.08667 & 0.08667 & 0.08667 &   0 \\ 
+  PELT &  &  &  &  &  &  &   1 \\ 
+  FusedLasso &  &  &  &  &  &  &   1 \\ 
+  kernelSmoothingVfold & 0.01182 & 0.004044 & 0.00928 & 0.01096 & 0.01527 & 0.02129 &   0 \\ 
+  kernelSmoothingLOOCV & 0.01035 & 0.004343 & 0.00928 & 0.01122 & 0.01122 & 0.01983 &   0 \\ 
+   \hline
+\end{tabular}
+\caption{cp: bandwidths} 
+\label{tab:cpBandwidths}
+\end{table}
+% latex table generated in R 3.6.3 by xtable 1.8-4 package
+% Mon Mar 23 07:51:38 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccc}
+  \hline
+method & mean & min & 25\% & 50\% & 75\% & max \\ 
+  \hline
+method & 0.01937 & 7.293e-06 & 0.001623 & 0.009436 & 0.03929 & 0.05824 \\ 
+  JIC &  &  &  &  &  &  \\ 
+  PELT &  &  &  &  &  &  \\ 
+  FusedLasso & 0.001576 &  &  &  &  &  \\ 
+  kernelSmoothingVfold &  &  &  &  &  &  \\ 
+  kernelSmoothingLOOCV &  &  &  &  &  &  \\ 
+   \hline
+\end{tabular}
+\caption{cp: fused Lasso penalty $\lambda$} 
+\label{tab:cpLambdas}
+\end{table}
+% latex table generated in R 3.6.3 by xtable 1.8-4 package
+% Mon Mar 23 07:51:38 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccccc|c}
+  \hline
+method & bias & $<$ -2 & -2 & -1 & 0 & 1 & 2 & $>$ 2 & aMSE \\ 
+  \hline
+method & 0.2361 & 0.0024 & 0.0078 & 0.0699 & 0.6854 & 0.1704 & 0.0447 & 0.0194 & 0.001733 \\ 
+  JIC & -4.272 & 0.9841 & 0.0158 & 0.0001 &     0 &     0 &     0 &     0 & 0.03389 \\ 
+  PELT & 0.0766 &     0 &     0 &     0 & 0.9343 & 0.056 & 0.0087 & 0.001 & 0.001564 \\ 
+  FusedLasso & 5.128 &     0 & 0.0008 & 0.0043 &  0.02 & 0.0423 & 0.0857 & 0.8469 & 0.0251 \\ 
+  kernelSmoothingVfold &    -6 &     1 &     0 &     0 &     0 &     0 &     0 &     0 & 0.01142 \\ 
+  kernelSmoothingLOOCV &    -6 &     1 &     0 &     0 &     0 &     0 &     0 &     0 & 0.01096 \\ 
+   \hline
+\end{tabular}
+\caption{cp: number of detected change-points and averaged MSE} 
+\label{tab:cpNjumps}
+\end{table}
+% latex table generated in R 3.6.3 by xtable 1.8-4 package
+% Mon Mar 23 07:51:38 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|cccccc}
+  \hline
+method & 1 & 2 & 3 & 4 & 5 & 6 \\ 
+  \hline
+method &  69.42 &  99.89 &  99.98 &  99.66 &  99.82 &  97.73 \\ 
+  JIC &      0 &      0 &  99.93 &      0 &  58.15 &  12.59 \\ 
+  PELT &  84.36 &    100 &    100 &  99.91 &    100 &   99.5 \\ 
+  FusedLasso &  97.52 &    100 &    100 &   0.95 &   0.04 &  99.46 \\ 
+  kernelSmoothingVfold &      0 &      0 &      0 &      0 &      0 &      0 \\ 
+  kernelSmoothingLOOCV &      0 &      0 &      0 &      0 &      0 &      0 \\ 
+   \hline
+\end{tabular}
+\caption{cp: percentage how often each change-point was detected} 
+\label{tab:cpDetections}
+\end{table}
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Mon Mar  4 01:59:59 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|c|ccccccc|c}
+  \hline
+method & bias & $<$ -2 & -2 & -1 & 0 & 1 & 2 & $>$ 2 & aMSE \\ 
+  \hline
+method & 0.2132 & 0.0014 & 0.0067 & 0.0851 & 0.6814 & 0.1601 & 0.0495 & 0.0158 & 0.001801 \\ 
+  JIC & -4.272 & 0.9841 & 0.0158 & 0.0001 &     0 &     0 &     0 &     0 & 0.03389 \\ 
+  PELT & 0.0766 &     0 &     0 &     0 & 0.9343 & 0.056 & 0.0087 & 0.001 & 0.001564 \\ 
+  COPS & -3.575 & 0.8929 & 0.0645 & 0.0255 & 0.0105 & 0.004 & 0.0014 & 0.0012 & 0.04506 \\ 
+  SOPS & -4.042 & 0.688 &     0 & 0.1424 & 0.0748 & 0.0426 & 0.019 & 0.0332 & 0.05202 \\ 
+   \hline
+\end{tabular}
+\caption{cp: number of detected change-points and averaged MSE} 
+\label{tab:cpNjumps}
+\end{table}
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Mon Mar  4 01:59:59 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|cccccc}
+  \hline
+method & 1 & 2 & 3 & 4 & 5 & 6 \\ 
+  \hline
+method &  61.28 &  99.93 &    100 &  99.68 &  99.83 &   97.6 \\ 
+  JIC &      0 &      0 &  99.93 &      0 &  58.15 &  12.59 \\ 
+  PELT &  84.36 &    100 &    100 &  99.91 &    100 &   99.5 \\ 
+  COPS &  15.14 &   0.04 &    100 &   1.95 &  81.45 &  10.58 \\ 
+  SOPS &  14.51 &   0.16 &  31.07 &    2.3 &  28.23 &    3.9 \\ 
+   \hline
+\end{tabular}
+\caption{cp: percentage how often each change-point was detected} 
+\label{tab:cpDetections}
+\end{table}
